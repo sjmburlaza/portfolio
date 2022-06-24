@@ -1,7 +1,51 @@
 /* html, body {  width:100%;  height:100vh; } */
 
 .ball {
-    position: absolute;
-    border-radius: 100%;
-    opacity: 0.7;
-  }
+   position: absolute;
+   border-radius: 100%;
+   opacity: 0.7;
+}
+
+h1 {
+   font-size: 6vw;
+   letter-spacing: 1vw;
+   word-spacing: 2vw;
+}
+
+h2 {
+   font-size: 3.0vh;  
+}
+
+p {
+   font-size: 2vmin;
+}
+
+#ambient {
+   overflow:hidden; 
+   position:absolute; 
+   width:98%; 
+   height:98vh;
+}
+
+#landing {
+   padding: 15% 0;
+   display: flex;
+   align-items: center;
+   height: 100%;
+}
+
+#greetings {
+   text-align: center;
+   font-family: 'Monoton', cursive;
+}
+
+#greetings:hover {
+   animation: animateColors 1s infinite;
+}
+
+@keyframes animateColors {
+   0% { color: #E8A87C; }
+   30% { color: #C38D9E; }
+   70% { color: #85DCB2; }
+   100% { color: #41B3A3; }
+}
