@@ -10,6 +10,7 @@
 
 .wrapper{
    position: fixed;
+   text-align: center;
    top: 0;
  /*   left: -100%; */
    right: -100%;
@@ -193,25 +194,13 @@ input[type="checkbox"] {
    opacity: 0.7;
 }
 
-h1 {
-   font-size: 5vw;
-   letter-spacing: 1vw;
-   word-spacing: 2vw;
-}
 
-h2 {
-   font-size: 3.0vh;  
-}
-
-p {
-   font-size: 2vmin;
-}
 
 #ambient {
    overflow:hidden; 
    position:absolute; 
-   width:98%; 
-   height:98vh;
+   width:99%; 
+   height:100vh;
 }
 
 .nav-bar {
@@ -226,7 +215,7 @@ p {
 }
 
 #greetings {
-   text-align: center;
+   /* text-align: center; */
    font-family: 'Monoton', cursive;
 }
 
@@ -239,4 +228,47 @@ p {
    30% { color: #C38D9E; }
    70% { color: #85DCB2; }
    100% { color: #41B3A3; }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 360px) {
+  h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+ }
+ 
+ h2 {
+ }
+ 
+ p {
+ }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 60px;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+ }
+ 
+ h2 {
+    font-size: 3vh;  
+ }
+ 
+ p {
+    font-size: 2vmin;
+ }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
