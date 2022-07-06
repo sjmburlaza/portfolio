@@ -238,7 +238,7 @@ input[type="checkbox"] {
 }
 
 .work-img {
-  max-width:90%;
+  max-width:100%;
   height:auto;
 }
 
@@ -252,11 +252,11 @@ input[type="checkbox"] {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 360px) {
-  .work-container {
+  /* .work-container {
     height: 200vh; 
-    width: 100%; 
+    width: 100%;
     background-color:#91B5A9;
-  }
+  } */
 
   h1 {
     font-size: 30px;
@@ -274,7 +274,7 @@ input[type="checkbox"] {
 
  h4 {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: 2px;
   word-spacing: 2px;
 }
@@ -291,11 +291,11 @@ input[type="checkbox"] {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  .work-container {
+  /* .work-container {
     height: 130vh; 
     width: 100%; 
     background-color:#91B5A9;
-  }
+  } */
 
   h1 {
     font-size: 60px;
@@ -326,4 +326,72 @@ input[type="checkbox"] {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+}
+
+/*Waves*/
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 400px;
+}
+/* Animation */
+.parallax>use {
+  animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+.parallax>use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax>use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax>use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax>use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+  .content {
+    height: 30vh;
+  }
+}
+
+/*Other*/
+
+.unique-color-dark {
+  background-color: #7289da !important;
+}
+
+.bg-light {
+  background-color: #7289DA !important;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.custom-color {
+  background-color: #7289DA !important
 }
