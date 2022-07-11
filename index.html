@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -61,7 +62,7 @@
             <div class="col-md-4 p-2">
                 <div class="img-container">
                     <img class="work-img" alt="my-pic" src="./assets/images/note-2.png"/>
-                    <h4 class="img-text">project 01</h4>
+                    <h4 class="img-text">project 02</h4>
                 </div>
             </div>
             <div class="col-md-2"></div>
@@ -71,13 +72,13 @@
             <div class="col-md-4 p-2">
                 <div class="img-container">
                     <img class="work-img" alt="my-pic" src="./assets/images/note-3.png"/>
-                    <h4 class="img-text">project 01</h4>
+                    <h4 class="img-text">project 03</h4>
                 </div>
             </div>
             <div class="col-md-4 p-2">
                 <div class="img-container">
                     <img class="work-img" alt="my-pic" src="./assets/images/note-4.png"/>
-                    <h4 class="img-text">project 01</h4>
+                    <h4 class="img-text">project 04</h4>
                 </div>
             </div>
             <div class="col-md-2"></div>
@@ -87,13 +88,13 @@
             <div class="col-md-4 p-2">
                 <div class="img-container">
                     <img class="work-img" alt="my-pic" src="./assets/images/note-5.png"/>
-                    <h4 class="img-text">project 01</h4>
+                    <h4 class="img-text">project 05</h4>
                 </div>
             </div>
             <div class="col-md-4 p-2">
                 <div class="img-container">
                     <img class="work-img" alt="my-pic" src="./assets/images/note-6.png"/>
-                    <h4 class="img-text">project 01</h4>
+                    <h4 class="img-text">project 06</h4>
                 </div>
             </div>
             <div class="col-md-2"></div>
@@ -102,9 +103,17 @@
     <div class="container-fluid py-5 text-center" style="height: 100vh; background-color:#d98481">
         <h2 class="py-2">ABOUT</h2>
     </div>
-    <div class="container-fluid py-5 text-center" style="height: 100vh; background-color:#acbebc">
+    <div class="container-fluid py-5 text-center" style="background-color:#acbebc">
         <h2 class="py-2">CONTACT</h2>
+        <form>      
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+            <input type="submit" value="SEND MESSAGE"/>
+            <!-- <button type="button" class="btn btn-dark">Send<img src="./assets/images/send-icon.png" width=20px/></button> -->
+        </form>
     </div>
+
     <!---Footer--->
     <div style="background-color:#acbebc;">
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -120,25 +129,14 @@
         </svg>
     </div>
     <footer>
-        <div class="container-fluid unique-color-dark" style="height: 20vh;">
-
+        <div class="container-fluid unique-color-dark" style="height: 15vh;">
+            <div id="footer-span">
+                <p class="footer-icon"><a target = "blank" href="https://www.linkedin.com/in/sharmane-joy-burlaza-35834915b/"><img alt="linkedin" src="./assets/images/linkedin.png" width=25px/></a>
+                <p class="footer-icon"><a target = "blank" href="https://github.com/sharmaneburlaza"><img alt="github" src="./assets/images/github-logo.png" width=25px/></a>  
+            </div>
+            <p>Made with &#10084;&#65039; by &copy; Sharmane 2022</p>
         </div>
     </footer>
-
-    <!-- <footer class="page-footer font-small unique-color-dark pt-4">
-    <div class="container">
-    <ul class="list-unstyled list-inline text-center py-2">
-        <h5 class="mb-1">mm this button looks like very good. do you want click it?</h5>
-        <li class="list-inline-item">
-            <a href="#" class="btn btn-outline-light btn-rounded">yes!</a>
-        </li><br>
-        <br>
-    </ul>
-    </div>
-    <div class="footer-copyright text-center py-3"><h7>© 2020 Copyright:</h7>
-    <h7 href="https://discord.gg/uRqH5UT"> Croxy</h7>
-    </div>
-    </footer> -->
 </div>
     <script src="./js/backgroundBalls.js"></script>
 </body>
