@@ -279,6 +279,70 @@ input[type="checkbox"] {
   background-image: url(../images/abstract-shape2.png);
 } */
 
+.tech-stack {
+	height: 60px;
+	margin-top: 15px;
+	background-size: contain; 
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#html {
+	background-image: url("../images/html5-logo.png");
+}
+
+#css {
+	background-image: url("../images/css-logo.png");
+}
+
+#js {
+	background-image: url("../images/js-logo.png");
+}
+
+#ts {
+	background-image: url("../images/typescript-logo.png");
+}
+
+#gitlab {
+	background-image: url("../images/gitlab.png");
+}
+
+#nextjs {
+	background-image: url("../images/nextjs.png");
+}
+
+#bootstrap {
+	background-image: url("../images/bootstrap.png");
+}
+
+#react {
+	background-image: url("../images/react.png");
+}
+
+#angular {
+	background-image: url("../images/angular-logo.png");
+}
+
+#nodejs {
+	background-image: url("../images/nodejs.png");
+}
+
+#expressjs {
+	background-image: url("../images/expressjs.png");
+}
+
+#mongodb {
+	background-image: url("../images/mongodb.png");
+}
+
+#postman {
+	background-image: url("../images/postman.png");
+}
+
+#robo3t {
+	background-image: url("../images/robo3t.png");
+}
+
 @keyframes animateColors {
    0% { color: #E8A87C; }
    30% { color: #C38D9E; }
