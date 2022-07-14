@@ -258,6 +258,11 @@ input[type="checkbox"] {
   width: 100%;
 }
 
+/* .btn .btn-outline-dark .btn-sm {
+  width: 50px;
+  border-radius: 5px;
+} */
+
 /* #bg-abstract1 {
   background-image: url(../images/abstract-shape1.png);
   height: 20vh;
@@ -345,6 +350,10 @@ footer p {
   
 }
 
+.about-row{
+  display: flex;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 360px) {
   /* .work-container {
@@ -375,7 +384,12 @@ footer p {
 }
  
  p {
+
  }
+
+ /* .about-row{
+  flex-direction: row-reverse;
+} */
 }
 
 /* Medium devices (tablets, 768px and up) */
