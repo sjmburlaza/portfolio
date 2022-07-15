@@ -2,14 +2,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Open Sans', sans serif;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 header {
-  /* border-bottom: 1px solid #E2E8F0; */
-  /* height: 10vh; */
   width: 100%;
-  /* background-color: #482ff7; */
 }
 
 li {
@@ -24,8 +21,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
-  /* padding: 1rem 1.5rem; */
+  padding-right: 1rem;
 }
 
 /* .hamburger {
@@ -416,12 +412,6 @@ footer p {
 
 
 
-
-
-
-
-
-
 }
 
 /*Waves*/
@@ -491,7 +481,6 @@ footer p {
 .custom-color {
   background-color: #7289DA !important
 }
-
 
 p {
   /* font-size: 2vmin; */
