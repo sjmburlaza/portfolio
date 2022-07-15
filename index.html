@@ -43,30 +43,39 @@
     <div id="ambient" class="jumbotron jumbotron-fluid" style="background-color:#ffffff">
 
         <!-- nav-bar -->
-
-        <div class="nav-bar">
-            <a id="my-logo" href="#"><img alt="my-logo" src="./assets/images/sb-logo.png" width=80vh/></a>
-            <input type="checkbox" id="active">
-            <label for="active" class="menu-btn"><span></span></label>
-            <label for="active" class="close"></label>
-            <div class="wrapper">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+        <header class="header">
+            <nav class="navbar">
+                <a class="nav-logo" href="#"><img alt="my-logo" src="./assets/images/sb-logo.png" width=80vh/></a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
                 </ul>
-            </div>
-        </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
 
         <!-- landing -->
 
         <div id="landing" class="container px-0">
             <div class="row">
-                <div class="col-md-5 text-center p-2" data-aos="fade-up">
+                <div class="col-md-5 text-center p-2">
                     <img alt="my-pic" src="./assets/images/sharmane-pic-edit.png" style="max-width:80%; height:auto;"/>
                 </div>
-                <div class="col-md-7 text-center p-5" data-aos="fade-up">
+                <div class="col-md-7 text-center p-5">
                     <h1 id="greetings">HI! I'M SHARMANE, WEB DEVELOPER.</h1>
                 </div>
             </div>
@@ -78,7 +87,7 @@
 
         </div>
     </div>
-    <div class="container-fluid p-5 text-center work-container" style="background-color:#91B5A9;">
+    <div id="work" class="container-fluid p-5 text-center work-container" style="background-color:#91B5A9;">
         <h2 class="py-2">WORK</h2>
 
         <!-- work row 1 -->
@@ -202,7 +211,7 @@
         </div>
         
     </div>
-    <div class="container-fluid py-5 text-center" style="background-color:#d98481">
+    <div id="about" class="container-fluid py-5 text-center" style="background-color:#d98481">
         <h2 class="py-2">ABOUT</h2>
         <div class="row about-row">
             <div class="col-md-4 my-3" data-aos="fade-up-right">
@@ -284,7 +293,7 @@
             <!-- end of Technologies -->
         </div>
     </div>
-    <div class="container-fluid py-5 text-center" style="background-color:#acbebc">
+    <div id="contact" class="container-fluid py-5 text-center" style="background-color:#acbebc">
         <h2 class="py-2">CONTACT</h2>
         <form data-aos="fade-up">
             <input name="name" type="text" class="feedback-input" placeholder="Name" />
