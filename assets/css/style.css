@@ -243,23 +243,23 @@ transform: translateY(-8px) rotate(-45deg);
 }
 
 #git {
-  background-image: url("../images/logo-git.png");
+  background-image: url("../images/git.png");
 }
 
 #mysql-wb {
-  background-image: url("../images/logo-mysql-wb.png");
+  background-image: url("../images/mysql-wb.png");
 }
 
 #npm {
-  background-image: url("../images/logo-npm.png");
+  background-image: url("../images/npm.png");
 }
 
 #sequelpro {
-  background-image: url("../images/logo-sequelpro.png");
+  background-image: url("../images/sequelpro.png");
 }
 
 #vscode {
-  background-image: url("../images/logo-vscode.png");
+  background-image: url("../images/vscode.png");
 }
 
 @keyframes animateColors {
