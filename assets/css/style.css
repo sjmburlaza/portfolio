@@ -427,7 +427,15 @@ footer p {
 @media (min-width: 1200px) {
 
 
+}
 
+
+@media (min-width: 1800px) {
+  #work, #about {
+    padding-left: 15vw !important;
+    padding-right: 15vw !important;
+    /* max-width: 1200px; */
+  }
 }
 
 /*Waves*/
