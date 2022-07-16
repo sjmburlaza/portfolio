@@ -242,8 +242,24 @@ transform: translateY(-8px) rotate(-45deg);
 	background-image: url("../images/postman.png");
 }
 
-#robo3t {
-	background-image: url("../images/robo3t.png");
+#git {
+  background-image: url("../images/logo-git.png");
+}
+
+#mysql-wb {
+  background-image: url("../images/logo-mysql-wb.png");
+}
+
+#npm {
+  background-image: url("../images/logo-npm.png");
+}
+
+#sequelpro {
+  background-image: url("../images/logo-sequelpro.png");
+}
+
+#vscode {
+  background-image: url("../images/logo-vscode.png");
 }
 
 @keyframes animateColors {
