@@ -121,7 +121,7 @@ transform: translateY(-8px) rotate(-45deg);
 
 #greetings {
    /* text-align: center; */
-   font-family: 'Monoton', cursive;
+   font-family: 'Monoton', 'Montserrat', Helvetica;
 }
 
 #greetings:hover {
